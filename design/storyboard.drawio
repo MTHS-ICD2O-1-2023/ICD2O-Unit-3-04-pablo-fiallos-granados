@@ -1,11 +1,41 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="767" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                <mxCell id="42" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="50" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;fontSize=9;" vertex="1" parent="42">
+                    <mxGeometry y="130" width="760" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Please enter the following:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0D0D0D;" vertex="1" parent="42">
+                    <mxGeometry x="30" y="150" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="temperature in fahrenheit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0D0D0D;" vertex="1" parent="42">
+                    <mxGeometry x="19" y="190" width="172" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=none;html=1;fontColor=#0D0D0D;jumpSize=5;fillColor=#eeeeee;strokeColor=#36393d;" edge="1" parent="42">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="37" y="250" as="sourcePoint"/>
+                        <mxPoint x="280" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="enter..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#BDBBB9;" vertex="1" parent="42">
+                    <mxGeometry x="28" y="220" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="42">
+                    <mxGeometry y="20" width="760" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;CALCULATE&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=none;fontSize=9;" vertex="1" parent="42">
+                    <mxGeometry x="38" y="273.38" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="temperature = x&lt;sup&gt;o&lt;/sup&gt;C&lt;sup&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&lt;/sup&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0D0D0D;" vertex="1" parent="42">
+                    <mxGeometry x="-40" y="320" width="252" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;h1&gt;&lt;font color=&quot;#0d0d0d&quot;&gt;fahrenheit to celsius&lt;/font&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="70" width="440" height="120" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
