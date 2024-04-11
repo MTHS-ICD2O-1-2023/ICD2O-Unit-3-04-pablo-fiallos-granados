@@ -10,9 +10,9 @@
 function enterClicked() {
   // input
   const temperatureFahrenheit = parseFloat(document.getElementById("temperatureFahrenheit").value)
-  const temperatureCelcius = (temperatureFahrenheit - 32) * 5.0/9.0
-  const temperatureCelciusRounded = temperatureCelcius.toFixed(2)
+  const temperatureCelsius = (temperatureFahrenheit - 32) * 5.0/9.0
+  const temperatureCelsiusRounded = temperatureCelsius.toFixed(2)
   // output
   document.getElementById("user-info").innerHTML =
-    "temperature = " + temperatureCelciusRounded + "<sup>o</sup>C"
+    "temperature = " + temperatureCelsiusRounded + "<sup>o</sup>C"
 }
